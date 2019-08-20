@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang='fr'>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="webagency.css"/>
+        <meta name=viewport content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <title>WEBAGENCY</title>
+    </head>
+
+    <body>
+    	<div id='Bloc_Page'>
+    		<header>
+    			<img src='images/logo.png' alt='WebAgencyLogo'>
+    			<nav>
+    				<ul>
+                		<li><a href='#Home_Webagency'>Accueil</a></li>
+                    	<li><a href='#Services'>Services</a></li>
+                    	<li><a href='#Portfolio'>Portfolio</a></li>
+                    	<li><a href='#Contact'>Contact</a></li>
+                	</ul>
+                </nav>	
+    		</header>
+    	
+    		<section>
+    			<div id='HomePage'>
+    				<div id='Home_WebagencyText'>
+    					<div id='Chevrons'>
+    						<div class='MyCircle3'><i class="fas fa-chevron-left"></i></div>
+    						<div class='MyCircle4'><i class="fas fa-chevron-right"></i></div>
+    					</div>
+    					<h1 id='Home_Webagency'><span class='Webagency'>Webagency</span>: L'agence de tous <br/> vos projets !</h1>
+    					<h2>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</h2>
+    					<div id='MoreInfoButton'>
+                			<a href='#' class='MoreInfoButton'>Plus d'infos</a>
+                		</div>
+                	</div>
+                </div>
+        	</section>
+
+        	<section>
+        		<div id='Services'>
+                    <div id='ServicesHeader'>
+                        <h2 id='ServicesTitle'> Nos Services </h2>
+                    	<div class='TitleIcon'>
+                        	<i class="fas fa-circle"></i>
+                        </div>
+                        <p><strong>L' Agence Webagency</strong> est une agence web française. Tous les outils internet les plus attractifs et performants n'ont aucun secret pour l'ensemble de notre équipe.<br/> Nous vous accompagnons dans la réalisation de votre projet, de son pilotage à son référencement.</p>
+                    </div>
+                    <div id='ServicesContent'>
+                        <img src='images/main-feature.png' alt='ComputerServices'>
+                        <div id='ServicesContentIconsText'>
+                        	<div class='Align'>
+                        		<div class='ContentIcons'>
+                        			<div class='MyCircle'>
+                        				<i class="fas fa-chart-line"></i>
+                        				<i class="fas fa-circle InnerCircle"></i>
+                        			</div>
+                        		</div>
+                        		<div class='ContentText'>
+                        			<h3>UX design</h3>
+                        			<p>Soucieux de l'importance de l'interaction et de l'optimisation des plateformes web et mobile ? Nos UX Designers sont là !</p>
+                        		</div>
+                        	</div>
+                        	<div class='Align'>
+                        		<div class='ContentIcons'>
+                        			<div class='MyCircle'>
+                        				<i class="fas fa-cubes"></i>
+                        				<i class="fas fa-circle InnerCircle"></i>
+                        			</div>
+                        		</div>
+                        		<div class='ContentText'>
+                        			<h3>UI design</h3>
+                        			<p>Nous portons à votre connaissance toutes les possibilités techniques offertes par les technologie du web.</p>
+                        		</div>
+                        	</div>
+                        	<div class='Align'>
+                        		<div class='ContentIcons'>
+                        			<div class='MyCircle'>
+                        				<i class="fas fa-chart-pie"></i>
+                        				<i class="fas fa-circle InnerCircle"></i>
+                        			</div>
+                        		</div>
+                        		<div class='ContentText'>
+                        			<h3>SEO</h3>
+                        			<p>Nous assurons le référecement naturel de votre site web par la définition d'une stratégie de visibilité, une optimisation on-page et off-page.</p> 		
+                        		</div>
+                        	</div>
+                        </div>
+                    </div>
+                </div>
+        	</section>
+
+        	<section>
+        		<div id='Portfolio'>
+        			<div id='PortfolioHeader'>
+        				<h2 id='PortfolioText'> Nos projets </h2>
+        				<div class='TitleIcon'>
+        					<i class="fas fa-circle"></i>
+        				</div>
+                        <p>Vous nécessitez d'une visibilité rapidement sur la toile ?<br/> Notre équipe vous délivrera votre site internet en un tour de code !</p>
+                        <nav id='Menu'>
+                        	<ul>
+                        		<li>All Works<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                        		<li>Creative<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                        		<li>Corporate<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                        		<li>Portfolio<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                        	</ul>
+                    	</nav>
+                    </div>
+                    <div id='PortfolioContent'>
+        				<div class='Hover1'>
+                    		<img src='images/portfolio/01.jpg' alt='Project1LesBigleux'>
+                    		<div class='TextImages'>
+                    			<h4>Opticiens "Les Bigleux"</h4><p>Trouver votre monture</p>
+                    			<div class='MyCircle2'><i class="fas fa-circle Images"></i><i class="far fa-eye"></i></div>
+                    		</div>
+                        </div>
+                    	<div class='Hover1'>
+                            <img src='images/portfolio/02.jpg' alt='Project2EventsCrea'>
+                            <div class='TextImages'>  
+                              	<h4>Créateurs d'évènements</h4><p>Confiez-nous l'orga de vos events</p>
+                                <div class='MyCircle2'><i class="fas fa-circle Images"></i><i class="far fa-eye"></i></div>
+                            </div>
+                        </div>
+                        <div class='Hover1'>
+                            <img src='images/portfolio/03.jpg' alt='Project3Pompadour'>
+                            <div class='TextImages'>
+                                <h4>Pompadour</h4><p>Votre nouvelle boisson healthy</p>
+                                <div class='MyCircle2'><i class="fas fa-circle Images"></i><i class="far fa-eye"></i></div>
+                            </div>
+                        </div>
+                        <div class='Hover1'>
+                            <img src='images/portfolio/04.jpg' alt='Project4NotepadEdition'>
+                            <div class='TextImages'>
+                                <h4>Editions du Carnet</h4><p>Pour les écrivains en herbe</p>
+                                <div class='MyCircle2'><i class="fas fa-circle Images"></i><i class="far fa-eye"></i></div>
+                            </div>
+                        </div>
+                        <div class='Hover1'>
+                            <img src='images/portfolio/05.jpg' alt='Project5Eshoes'>
+                            <div class='TextImages'>
+                                <h4>E-shoes</h4><p>Trouver chaussures à vos pieds</p>
+                                <div class='MyCircle2'><i class="fas fa-circle Images"></i><i class="far fa-eye"></i></div>
+                            </div>
+                        </div>
+                        <div class='Hover1'>
+                            <img src='images/portfolio/06.jpg' alt='Project6GlobeTrotter'>
+                            <div class='TextImages'>
+                                <h4>GlobeTrotter</h4><p>Agence de Voyage, voyage !</p>
+                                <div class='MyCircle2'><i class="fas fa-circle Images"></i><i class="far fa-eye"></i></div>
+                            </div>
+                        </div>
+                        <div class='Hover1'>
+                            <img src='images/portfolio/07.jpg' alt='Project7LightSpeed'>
+                            <div class='TextImages'>
+                                <h4>LightSpeed</h4><p>Pour smartphone cassés !</p>
+                                <div class='MyCircle2'><i class="fas fa-circle Images"></i><i class="far fa-eye"></i></div>
+                            </div>
+                        </div>
+                        <div class='Hover1'>
+                            <img src='images/portfolio/08.jpg' alt ='Project8StampStamp'>
+                            <div class='TextImages'>
+                                <h4>Stomp stomp</h4><p>Fournitures de bureau top quality</p>
+                                <div class='MyCircle2'><i class="fas fa-circle Images"></i><i class="far fa-eye"></i></div>
+                            </div>
+                        </div>
+                        <div class='Hover1'>
+                            <img src='images/portfolio/full.jpg' alt='Project9UsBurger'>
+                            <div class='TextImages'>
+                                <h4>US Burger</h4><p>Découvrez le goût 100% US</p>
+                                <div class='MyCircle2'><i class="fas fa-circle Images"></i><i class="far fa-eye"></i></div>
+                            </div>
+                        </div>
+                    </div>
+        		</div>
+        	</section>
+
+        	<section>
+        		<div id ='Contact'>
+        			<div id='ContactContent'>
+        				<div id='MapFilter'>
+        				</div>
+        				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14845.042471728306!2d2.3447153858893732!3d48.87236659333449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1442c049bb%3A0x30a290491097f07f!2sWebAgency+SAS!5e0!3m2!1sfr!2sfr!4v1549908573864" width="1350" height="600" style="border:0" allowfullscreen></iframe>
+        				<div id='Form'>
+        					<div id='FormContent'>
+        						<h2>Contact Info</h2>
+        						<p><span>WebAgency SAS</span> <br/>25 rue d'Hauteville 75010 Paris <br/> <span class='tel'>Tel:</span>01 02 03 04 05</p>
+        						<form method="post" action="traitement.php">
+        							<p>
+        								<input type='text' name='Name' id='Name' placeholder='Name'/>
+        								<input type='email' name='Email' id='Email' placeholder='Email'/>
+        								<input type='text' name='Subject' id='Subject' placeholder='Subject'/>
+        								<textarea name='Message' id='Message' placeholder='Message' rows='10' cols='50'></textarea>
+        							</p>
+        							<div id='SendMessageButton'>
+                						<a href='#' class='SendMessageButton'>Send Message</a>
+                					</div>
+        						</form>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</section>
+        	<!--footer>
+        	</footer-->
+        </div>
+    </body>
+</html>
